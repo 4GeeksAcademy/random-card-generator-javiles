@@ -5,9 +5,11 @@ body {
   box-sizing: border-box;
 }
 h1 {
+  padding-top: 54px;
   padding-bottom: 54px;
   color: white;
-  text-shadow: 4px;
+  text-shadow: 1px 1px red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .card {
   display: inline-block;
@@ -21,6 +23,7 @@ h1 {
   border-radius: 20px;
   border: 1px solid black;
   position: relative;
+  box-shadow: 5px 10px red;
 
   &:before {
     position: absolute;
